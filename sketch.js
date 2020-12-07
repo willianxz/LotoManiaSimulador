@@ -418,7 +418,7 @@ function gerarCartelas(quantCartelas, quantNumerosSortidosPorCartela){
     //Cria as cartelas com a quantidade de numeros solicitada.
     for(var iteracoes = 0; iteracoes < quantCartelas; iteracoes++){
         for(var i = 0; i < quantNumerosSortidosPorCartela; i++){
-          sorteio.push(floor(random(1, 100)));
+          sorteio.push(floor(random(0, 100)));
         }
     }
     //O random deve ir de 1 - 26, por que ele vai ignorar o ultimo digito no caso o (26).
@@ -538,7 +538,7 @@ function jogar(){
     }
     
     switch(acertoNumeros){
-       case 0:
+        case 0:
             valorFaturado += 119906.97;
             acertoJogos++;
             break;
