@@ -538,24 +538,32 @@ function jogar(){
     }
     
     switch(acertoNumeros){
+       case 0:
+            valorFaturado += 119906.97;
+            acertoJogos++;
+            break;
         case 15:
-            valorFaturado += 746232.56;
+            valorFaturado += 4.97;
             acertoJogos++;
             break;
-        case 14:
-            valorFaturado += 1813.32;
+        case 16:
+            valorFaturado += 21.08;
             acertoJogos++;
             break;
-        case 13:
-            valorFaturado += 20.00;
+        case 17:
+            valorFaturado += 123.11;
             acertoJogos++;
             break;
-        case 12:
-            valorFaturado += 8.00;
+        case 18:
+            valorFaturado += 1561.50;
             acertoJogos++;
             break;
-        case 11:
-            valorFaturado += 4.00;
+        case 19:
+            valorFaturado += 95605.51;
+            acertoJogos++;
+            break;
+        case 20:
+            valorFaturado += 5000000.00;
             acertoJogos++;
             break;
     }
